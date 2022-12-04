@@ -11,7 +11,6 @@
 		A123A3A8293B32B5004DA915 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123A3A7293B32B5004DA915 /* ContentView.swift */; };
 		A123A3AA293B32B7004DA915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A123A3A9293B32B7004DA915 /* Assets.xcassets */; };
 		A123A3AE293B32B7004DA915 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A123A3AD293B32B7004DA915 /* Preview Assets.xcassets */; };
-		A123A3B6293B3349004DA915 /* FloatingLabelTextFieldStyle in Frameworks */ = {isa = PBXBuildFile; productRef = A123A3B5293B3349004DA915 /* FloatingLabelTextFieldStyle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A123A3B6293B3349004DA915 /* FloatingLabelTextFieldStyle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +88,6 @@
 			);
 			name = "KPI Calc";
 			packageProductDependencies = (
-				A123A3B5293B3349004DA915 /* FloatingLabelTextFieldStyle */,
 			);
 			productName = "KPI Calc";
 			productReference = A123A3A2293B32B5004DA915 /* KPI Calc.app */;
@@ -121,7 +118,6 @@
 			);
 			mainGroup = A123A399293B32B4004DA915;
 			packageReferences = (
-				A123A3B4293B3349004DA915 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldStyle" */,
 			);
 			productRefGroup = A123A3A3293B32B5004DA915 /* Products */;
 			projectDirPath = "";
@@ -278,7 +274,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "KPI Calc/KPI_Calc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"KPI Calc/Preview Content\"";
 				DEVELOPMENT_TEAM = A3XE5T358U;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -301,7 +297,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kalachev.KPI-Calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -322,7 +318,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "KPI Calc/KPI_Calc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"KPI Calc/Preview Content\"";
 				DEVELOPMENT_TEAM = A3XE5T358U;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -345,7 +341,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kalachev.KPI-Calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -380,25 +376,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A123A3B4293B3349004DA915 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldStyle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/reddavis/FloatingLabelTextFieldStyle";
-			requirement = {
-				kind = exactVersion;
-				version = 0.9.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A123A3B5293B3349004DA915 /* FloatingLabelTextFieldStyle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A123A3B4293B3349004DA915 /* XCRemoteSwiftPackageReference "FloatingLabelTextFieldStyle" */;
-			productName = FloatingLabelTextFieldStyle;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A123A39A293B32B4004DA915 /* Project object */;
 }
