@@ -102,8 +102,11 @@ struct ContentView: View {
                 .onTapGesture {
                   showingBox = true
                 }
-                .alert("Important message", isPresented: $showingBox) {
-                    Button("OK", role: .cancel) { }
+                .alert(isPresented: $showingBox) {
+                  Alert(
+                      title: Text("Разработчик программы – Сергей Н. Калачёв"),
+                      message: Text("\nРазработка iOS приложений и всего спектра информационных систем с web-интерфейсом от сайта визитки до ERP систем уровня предприятия в основном с помощью Symfony (PHP), Doctrine (MariaDB) и Javascript.\n\n@ksn135\n+7 985 766 6191\nserg@kalachev.ru")
+                  )
                 }
             }
           }
