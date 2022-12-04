@@ -1,3 +1,3 @@
 # KPI Calc
 
-A description of this package.
+This is an internal tool for company management and business owners to quickly calculate key project indicators depending on the specified parameters.
